@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-deployment
-  namespace: nginx-eks
+  namespace: nginx-prod
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
