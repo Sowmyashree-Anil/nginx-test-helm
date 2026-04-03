@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: 742348407315.dkr.ecr.eu-central-1.amazonaws.com/eks-repository   # replace with your image name
-  tag: v1
+  repository: nginx   # replace with your image name
+  tag: latest
   pullPolicy: IfNotPresent
 
 service:
